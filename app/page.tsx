@@ -1,10 +1,14 @@
+import { Cormorant_Garamond } from "next/font/google";
 
+const MainFont = Cormorant_Garamond({ weight: ["600"],  subsets: ["latin"] });
 
 function page(){
     return (
-      <div className="flex justify-center items-center h-screen">
-        Hello World!
-      </div>
+      <main className={MainFont.className}>
+        <div className="flex justify-center items-center h-screen text-4xl">
+          Hello World!
+        </div>
+      </main>
     )
 }
 
