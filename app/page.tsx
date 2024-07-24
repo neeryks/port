@@ -1,4 +1,5 @@
 import { Cormorant_Garamond } from "next/font/google";
+import Header from "../components/header";
 
 const MainFont = Cormorant_Garamond({ weight: ["600"],  subsets: ["latin"] });
 
