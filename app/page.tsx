@@ -16,7 +16,7 @@ function page() {
       }}>
       </div>
 
-      <div className="z-10 text-7xl font-light text-center">
+      <div className="z-10 text-4xl md:text-7xl font-light text-center">
         Crafting <span className="font-bold text-blue-500">Masterpeices</span><br></br>With <span className="font-bold">Code.</span>
       </div>
 

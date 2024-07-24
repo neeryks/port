@@ -11,8 +11,8 @@ return (
         </div>
       </div>
       <div className="flex flex-row justify-end gap-8">
-         <div className="flex  items-center w-full text-2xl font-thin">WORKS</div>
-         <div className="flex  items-center w-full text-2xl font-thin">CONTACT</div>
+         <div className="flex  items-center w-full text-base md:text-2xl font-thin">WORKS</div>
+         <div className="flex  items-center w-full text-base md:text-2xl font-thin">CONTACT</div>
       </div>
     </header>
   );
