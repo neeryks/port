@@ -4,22 +4,30 @@ const MainFont = Cormorant_Garamond({ weight: ["600"], subsets: ["latin"] });
 
 function page() {
   return (
-    <main className="h-screen flex justify-center items-center">
+    <main className="flex flex-col">
+    <div className="flex justify-center items-start md:items-center p-0 " style={{ height: "calc(100vh - 80px)" }}>
   
-      <div className="absolute top-0 left-0 w-full h-full" style={{
+      <div className="absolute top-0 left-0 w-full md:mt-0" style={{
+        height: "calc(100vh)",
         backgroundImage: "url('/akashpng.webp')",
         backgroundSize: "contain",
         backgroundRepeat: "no-repeat",
-        backgroundPosition: "center",
+        backgroundPosition: "bottom",
         filter: "brightness(40%)",
         zIndex: -1
       }}>
-      </div>
 
-      <div className="z-10 text-4xl md:text-7xl font-light text-center">
-        Crafting <span className="font-bold text-blue-500">Masterpeices</span><br></br>With <span className="font-bold">Code.</span>
+      </div> 
+      <div className="flex justify-center items-center mt-20 md:mb-0">
+      <div className="z-10 text-3xl md:text-7xl font-light text-center hidden md:block">
+        Crafting <span className="font-bold text-blue-500">Masterpeices</span><br></br>With <span className="font-bold blinking-text">Code.</span>
       </div>
-
+      <div className="z-10 text-5xl md:text-7xl font-light text-center md:hidden">
+        Crafting <span className="font-bold text-blue-500"><br></br>Masterpeices</span><br></br>With <span className="font-bold blinking-text">Code.</span>
+      </div>
+      </div>
+    </div>
+    <div>Hello</div>
     </main>
   )
 }
