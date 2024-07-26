@@ -61,7 +61,7 @@ export default function ScrollMarquee(){
        
         <Marquee loop={0} gradient={false} speed={20} className="bg-white opacity-100">
         {images.map((image, index) => (
-            <img className="mr-6 ml-6 my-6" src={image} alt="neeryks logo" style={{ width: "50px", height: "50px"}} />
+            <img key={index} className="mr-6 ml-6 my-6" src={image} alt="neeryks logo" style={{ width: "50px", height: "50px"}} />
         ))}
         </Marquee>
        
