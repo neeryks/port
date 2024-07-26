@@ -101,7 +101,7 @@ export default function ScrollMarquee(){
        <div className="flex flex-col w-screen overflow-hidden">
         <Marquee loop={0} gradient={false} speed={20}>
         {images.map((image, index) => (
-            <div key={index} className="flex justify-center items-center rounded-md mx-1 bg-slate-800">
+            <div key={index} className="flex justify-center items-center rounded-md mx-1 bg-slate-800 zoom-on-hover">
                 <img className="mr-4 ml-4 my-2 rounded-md" src={image[0]} alt="neeryks logo" style={{ width: "20px", height: "20px"}} />
                 <span className="font-bold text-sm mr-4">{image[1]}</span>
             </div>
@@ -110,7 +110,7 @@ export default function ScrollMarquee(){
         </Marquee>
         <Marquee loop={0} gradient={false} speed={20}>
         {images2.map((image, index) => (
-            <div key={index} className="flex justify-center items-center rounded-md mx-1 bg-slate-800 mt-2">
+            <div key={index} className="flex justify-center items-center rounded-md mx-1 bg-slate-800 mt-2 zoom-on-hover">
                 <img className="mr-4 ml-4 my-2 rounded-md" src={image[0]} alt="neeryks logo" style={{ width: "20px", height: "20px"}} />
                 <span className="font-bold text-sm mr-4">{image[1]}</span>
             </div>
