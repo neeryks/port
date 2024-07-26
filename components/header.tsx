@@ -15,7 +15,7 @@ return (
         </div>
       </div>
       <div className="flex flex-row justify-end md:gap-8 gap-4">
-        <Link href={"#"} className="flex items-center w-full text-base md:text-2xl font-thin hover:font-light transition-all duration-300 hover:text-blue-500" ><div>WORKS</div></Link>
+        <Link href={"#Works"} className="flex items-center w-full text-base md:text-2xl font-thin hover:font-light transition-all duration-300 hover:text-blue-500" ><div>WORKS</div></Link>
         <Link href={"#"} className="flex items-center w-full text-base md:text-2xl font-thin hover:font-light transition-all duration-300 hover:text-blue-500" ><div>BLOG</div></Link>
         <Link href={"mailto:contact@neeryks.dev"} className="flex items-center w-full text-base md:text-2xl font-thin hover:font-light transition-all duration-300 hover:text-blue-500" ><div>CONTACT</div></Link>
          
