@@ -1,3 +1,4 @@
+"use client"
 import Hero from '@/components/hero'
 import WorksGrid from '@/components/works-grid'
 import ScrollMarquee from '@/components/marquee'
