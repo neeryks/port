@@ -16,10 +16,10 @@ function Hero() {
 
       </div> 
       <div className="flex justify-center items-center mt-20 md:mb-0">
-      <div className="z-10 text-3xl md:text-7xl font-light text-center hidden md:block">
+      <div className="z-1 text-3xl md:text-7xl font-light text-center hidden md:block">
         <span className="hover:text-blue-500 hover:font-bold transition-all duration-300">Crafting</span> <span className="font-bold text-blue-500">Masterpeices</span><br></br><span className="hover:text-blue-500 hover:font-bold transition-all duration-300">With</span> <span className="font-bold blinking-text underline underline-offset-8">Code.</span>
       </div>
-      <div className="z-10 text-5xl md:text-7xl font-light text-center md:hidden">
+      <div className="z-1 text-5xl md:text-7xl font-light text-center md:hidden">
         Crafting <span className="font-bold text-blue-500"><br></br>Masterpeices</span><br></br>With <span className="font-bold blinking-text underline underline-offset-8">Code.</span>
       </div>
       </div>
