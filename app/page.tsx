@@ -9,7 +9,7 @@ function page() {
       <div className="flex justify-center text-3xl md:text-7xl font-light text-center">
                 <ScrollMarquee></ScrollMarquee>           
       </div>
-      <div className='md:mt-32 mt-20 flex justify-center'>
+      <div className='md:mt-20 mt-20 flex justify-center'>
         <WorksGrid></WorksGrid>
       </div>
       
